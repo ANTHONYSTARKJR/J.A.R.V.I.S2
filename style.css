@@ -408,7 +408,8 @@ body {
 
   .button12 {
     border: none;
-    position: fixed;
+    position: absolute;
+
     border-radius: 20px;
     background: linear-gradient(32deg,#f40303,#000000,#ff3b3b,#000000);
     transition: all 1.5s ease;
@@ -438,3 +439,23 @@ body {
     backdrop-filter: blur(0px);
     color: #ffffff;
    }
+   .head{
+    height: 50px;
+    margin-bottom: 20px;
+   }
+   #img12{
+    display: flex;
+    margin-left: 85%;
+    position: absolute;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 100%;
+   }
+   #bg-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+  }
